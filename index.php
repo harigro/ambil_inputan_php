@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP AJAX JSON Example</title>
-    <link 
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" 
-        rel="stylesheet">
+    <link href="front/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container mt-5">
+    <div class="container w-50 h-50 mt-5 border">
         <h1 class="text-center">Data Siswa</h1>
         <form id="dataForm">
             <div class="mb-3">
@@ -20,7 +18,7 @@
                 <label for="kelas" class="form-label">Kelas</label>
                 <input type="text" id="kelas" class="form-control" required>
             </div>
-            <button type="button" id="submitBtn" class="btn btn-primary">Kirim</button>
+            <button type="button" id="submitBtn" class="btn btn-primary w-25 mb-4">Kirim</button>
         </form>
     </div>
 
@@ -42,9 +40,7 @@
         </div>
     </div>
 
-    <script 
-        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js">
-    </script>
+    <script src="front/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
